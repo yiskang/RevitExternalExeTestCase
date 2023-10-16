@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="DBApplication">
+		<Name>RevitExternalExeTestAddin</Name>
+		<FullClassName>RevitExternalExeTestAddin.Command</FullClassName>
+		<Text>RevitExternalExeTestAddin</Text>
+		<Description>Run External EXE Addin</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>.\RevitExternalExeTestAddin.dll</Assembly>
+		<AddInId>2AA260C3-BF46-4380-829C-E912611BD160</AddInId>
+		<VendorId>ADSK</VendorId>
+		<VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
+	</AddIn>
+</RevitAddIns>

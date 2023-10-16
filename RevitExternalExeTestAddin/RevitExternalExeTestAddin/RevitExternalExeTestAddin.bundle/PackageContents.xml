@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage Name="RevitDesignAutomation" Description="Run External EXE Addin" Author="aps.help@autodesk.com">
+	<CompanyDetails Name="Autodesk, Inc" Url="http://learnforge.autodesk.io" Email="aps.help@autodesk.com"/>
+	<Components Description="Run External EXE Addin">
+		<RuntimeRequirements SeriesMax="R2024" SeriesMin="R2023" Platform="Revit" OS="Win64"/>
+		<ComponentEntry LoadOnRevitStartup="True" LoadOnCommandInvocation="False" AppDescription="Run External EXE Addin" ModuleName="./Contents/RevitExternalExeTestAddin.addin" Version="1.0.0" AppName="RevitExternalExeTestAddin"/>
+	</Components>
+</ApplicationPackage>
